@@ -3,7 +3,6 @@
 import React from "react"
 import TypeIt from "typeit-react"
 import Link from 'next/link'
-import "../../node_modules/flag-icons/css/flag-icons.min.css";
 
 export default function Home() {
     return (
@@ -18,8 +17,8 @@ export default function Home() {
             /> 
             </div>
             <div className="text-4xl">
-            <Link href="/pl"><span className="fi fi-pl"></span></Link>
-            <Link href="/en"><span className="fi fi-gb"></span></Link>
+            <Link href="/pl">Polski </Link>
+            <Link href="/en">English</Link>
             </div>
         </div>
     )
